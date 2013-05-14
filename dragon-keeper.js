@@ -23,18 +23,23 @@ var asciiCredits = ["/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\
 "",
 "",
 "/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\_/\\",
-"\\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/"]
+"\\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/ \\/",
+"(Press enter to return to the menu.)"]
 
 var asciiDragons = ["<pre>                _/(               <~\\  /~>               )\\_</pre><pre>              .~   ~-.            /^-~~-^\\            .-~   ~.</pre><pre>           .-~        ~-._       : /~\\/~\\ :       _.-~        ~-.</pre><pre>        .-~               ~~--.__: \\0/\\0/ ;__,--~~               ~-.</pre><pre>       /                        ./\\. ^^ ./\\.                        \\</pre><pre>      .                         |  ( )( )  |                         .</pre><pre>      -~~--.        _.---._    /~   U`'U   ~\\    _.---._        .--~~-</pre><pre>            ~-. .--~       ~~-|              |-~~       ~--. .-~</pre><pre>               ~              |  :        :  |_             ~</pre><pre>                              `\\,'  :  :  `./' ~~--._</pre><pre>                             .(<___.'  `,___>),--.___~~-.</pre><pre>                             ~ (((( ~--~ ))))      _.~  _)</pre><pre>                                ~~~      ~~~/.--~ _.--~</pre>",
 "<pre></pre><pre>                         ^\\    ^                  </pre><pre>                        / \\\\  / \\                 </pre><pre>                       /.  \\\\/   \\      |\\___/|   </pre><pre>    *----*           / / |  \\\\    \\  __/  O  O\\   </pre><pre>    |   /          /  /  |   \\\\    \\_\\/  \\     \\     </pre><pre>   / /\\/         /   /   |    \\\\   _\\/    \\'@___@      </pre><pre>  /  /         /    /    |     \\\\ _\\/       |U</pre><pre>  |  |       /     /     |      \\\\\/        |</pre><pre>  \\  |     /_     /      |       \\\\  )   \\ _|_</pre><pre>  \\   \\       ~-./_ _    |    .- ; (  \\_ _ _,\\'</pre><pre>  ~    ~.           .-~-.|.-*      _        {-,</pre><pre>   \\      ~-. _ .-~                 \\      /'</pre><pre>    \\                   }            {   .*</pre><pre>     ~.                 '-/        /.-~----.</pre><pre>       ~- _             /        >..----.\\\\\\\\\\</pre><pre>           ~ - - - - ^}_ _ _ _ _ _ _.-\\\\\\\\\\\\'</pre>",
-"<pre>         ^                       ^</pre><pre>         |\\   \\        /        /|</pre><pre>        /  \\  |\\__  __/|       /  \</pre><pre>       / /\\ \\ \\ _ \\/ _ /      /    \</pre><pre>      / / /\\ \\ {*}\\/{*}      /  / \\ \</pre><pre>      | | | \\ \\( (00) )     /  // |\\ \</pre><pre>      | | | |\\ \\(V\"\"V)\\    /  / | || \\| </pre><pre>      | | | | \\ |^--^| \\  /  / || || || </pre><pre>     / / /  | |( WWWW__ \\/  /| || || ||</pre><pre>    | | | | | |  \\______\\  / / || || || </pre><pre>    | | | / | | )|______\\ ) | / | || ||</pre><pre>    / / /  / /  /______/   /| \\ \\ || ||</pre><pre>   / / /  / /  /\\_____/  |/ /__\\ \\ \\ \\ \</pre><pre>   | | | / /  /\\______/    \\   \\__| \\ \\ \</pre><pre>   | | | | | |\\______ __    \\_    \\__|_| \</pre><pre>   | | ,___ /\\______ _  _     \\_       \\  |</pre><pre>   | |/    /\\_____  /    \\      \\__     \\ |    /\</pre><pre>   |/ |   |\\______ |      |        \\___  \\ |__/  \</pre><pre>   v  |   |\\______ |      |            \\___/     |</pre><pre>      |   |\\______ |      |                    __/</pre><pre>       \\   \\________\\_    _\\               ____/</pre><pre>     __/   /\\_____ __/   /   )\\_,      _____/</pre><pre>    /  ___/  \\uuuu/  ___/___)    \\______/</pre><pre>    VVV  V        VVV  V </pre>", 
+"<pre>         ^                       ^</pre><pre>         |\\   \\        /        /|</pre><pre>        /  \\  |\\__  __/|       /  \\</pre><pre>       / /\\ \\ \\ _ \\/ _ /      /    \\</pre><pre>      / / /\\ \\ {*}\\/{*}      /  / \\ \\</pre><pre>      | | | \\ \\( (00) )     /  // |\\ \\</pre><pre>      | | | |\\ \\(V\"\"V)\\    /  / | || \\| </pre><pre>      | | | | \\ |^--^| \\  /  / || || || </pre><pre>     / / /  | |( WWWW__ \\/  /| || || ||</pre><pre>    | | | | | |  \\______\\  / / || || || </pre><pre>    | | | / | | )|______\\ ) | / | || ||</pre><pre>    / / /  / /  /______/   /| \\ \\ || ||</pre><pre>   / / /  / /  /\\_____/  |/ /__\\ \\ \\ \\ \</pre><pre>   | | | / /  /\\______/    \\   \\__| \\ \\ \\</pre><pre>   | | | | | |\\______ __    \\_    \\__|_| \\</pre><pre>   | | ,___ /\\______ _  _     \\_       \\  |</pre><pre>   | |/    /\\_____  /    \\      \\__     \\ |    /\\</pre><pre>   |/ |   |\\______ |      |        \\___  \\ |__/  \\</pre><pre>   v  |   |\\______ |      |            \\___/     |</pre><pre>      |   |\\______ |      |                    __/</pre><pre>       \\   \\________\\_    _\\               ____/</pre><pre>     __/   /\\_____ __/   /   )\\_,      _____/</pre><pre>    /  ___/  \\uuuu/  ___/___)    \\______/</pre><pre>    VVV  V        VVV  V </pre>", 
 "<pre></pre><pre></pre><pre>                                                    .%,</pre><pre>                                                   X:-x\\',</pre><pre>                                                  X:/%;::\\:X</pre><pre>                                                 X:l%  ; :'\\:X</pre><pre>                                                X:l%   :  : '\\:X</pre><pre>                                                X:l%   :   :  '\\:X</pre><pre>                             b,      b,        X:/l%   :    :   \\:X</pre><pre>                            JPQ,    JPQ,       X:l%    :     :   '\\:X</pre><pre>                          .dP'd|._,=dPQq\\     X:l%'    :      :    '\\:X</pre><pre>                         xdP  #P\"'_    _,:   .X:l%     :       :    '\\:X</pre><pre>                      .d/\"p   '  'O \\  'O:;  X:l%'     :       :      \\:X</pre><pre>                    ,pP' q.          \\:  `#  X:ld       :       :      ':X</pre><pre>                  ,d\"   ,pq  .,-qx_,  \"\\  `Q:  l%       :       :       k:X</pre><pre>                ./'     Jp       .      `  ` 3  %       :        ;      k:X</pre><pre>               dP       p            p    `  `q         :        :      k:X</pre><pre>              d/       ; J,/\";xpx\"\\: '*q    ` `\\,       :         :     l:X.</pre><pre>             dP      ;'    dP      \"\\:_,`.q. /d b\\      :         :      k:X</pre><pre>           .d'      ;    dP            .\\_j '- u-'      :         :      k:X</pre><pre>X         ./'     ;'    /\"            .'                :         ;      k:X</pre><pre>\\X       .d'     ;    ,\"             :      X:l%        :        :       k:X</pre><pre>:\\X      d'     ;   ./'             :       X:/%        :        ;       k:X</pre><pre>::lX    JP     ;    J              :      .X:/ %        :       :        k;X</pre><pre>k:lX    #'    :    j'             :    .X:/ %           :       :       d:lX</pre><pre>k:lX   |P    ;     |             :  .X:/ %              :       ;       k;lX</pre><pre>k:lX   ||    ;    |'            : X:/ %                 ;       :      d:;X'</pre><pre>k:lX   d|   ;     :l           :X:/ %'                 :        :      k:lX</pre><pre>k:iX   #|   ;     ||          X:/ %                    ;        ;      k:lX</pre><pre> k:\\X  ||  ;       ||       X:/ %                     :        :       k:lX</pre><pre>  k:\\pQJb  ;        \\N.PQ XX/ %                      ;         ;       k:lX</pre><pre>   kJP.Ql\\;          XQ. J Q J                      :         ;        k:lX</pre><pre>   6Q : Q%           \\Q  Q   J              ;''''':.:;''::.  :         k:lX</pre><pre>  6QQ  : Ql           lQ'   J              ;        ;     ': :;''':.   k::X.</pre><pre> 6QQQ )  Ql           i6    Q             ;                 .;     ':.  k:\\X</pre><pre>  6QQ   J l           \\  6  Q            ;                            ':.k:X</pre><pre> 9QQ   J  i            l 6   6          ;                                 k;</pre>",
 '<pre>@@@@@@@@@@@@@@@@@@@@@**^^""~~~"^@@^*@*@@**@@@@@@@@@</pre><pre>@@@@@@@@@@@@@*^^\'"~   , - \' \'; ,@@b. \'  -e@@@@@@@@@</pre><pre>@@@@@@@@*^"~      . \'     . \' ,@@@@(  e@*@@@@@@@@@@</pre><pre>@@@@@^~         .       .   \' @@@@@@, ~^@@@@@@@@@@@</pre><pre>@@@~ ,e**@@*e,  ,e**e, .    \' \'@@@@@@e,  "*@@@@@\'^@</pre><pre>@\',e@@@@@@@@@@ e@@@@@@       \' \'*@@@@@@    @@@\'   0</pre><pre>@@@@@@@@@@@@@@@@@@@@@\',e,     ;  ~^*^\'    ;^~   \' 0</pre><pre>@@@@@@@@@@@@@@@^""^@@e@@@   .\'           ,\'   .\'  @</pre><pre>@@@@@@@@@@@@@@\'    \'@@@@@ \'         ,  ,e\'  .    ;@</pre><pre>@@@@@@@@@@@@@\' ,&&,  ^@*\'     ,  .  i^"@e, ,e@e  @@</pre><pre>@@@@@@@@@@@@\' ,@@@@,          ;  ,& !,,@@@e@@@@ e@@</pre><pre>@@@@@,~*@@*\' ,@@@@@@e,   \',   e^~^@,   ~\'@@@@@@,@@@</pre><pre>@@@@@@, ~" ,e@@@@@@@@@*e*@*  ,@e  @@""@e,,@@@@@@@@@</pre><pre>@@@@@@@@ee@@@@@@@@@@@@@@@" ,e@\' ,e@\' e@@@@@@@@@@@@@</pre><pre>@@@@@@@@@@@@@@@@@@@@@@@@" ,@" ,e@@e,,@@@@@@@@@@@@@@</pre><pre>@@@@@@@@@@@@@@@@@@@@@@@~ ,@@@,,0@@@@@@@@@@@@@@@@@@@</pre><pre>@@@@@@@@@@@@@@@@@@@@@@@@,,@@@@@@@@@@@@@@@@@@@@@@@@@</pre><pre>"""""""""""""""""""""""""""""""""""""""""""""""""""</pre>'];
 //OO JS classes
 function Player(element){
   this.element = element;
   this.scales = [];
+  this.altElements = ["water", "fire", "wind", "amethyst", "iron", "gold", "emerald", 
+      "ruby", "grilled-cheese", "meatloaf", "silver", "cake", "rubix-cube", "glitter", 
+      "crystal", "smoke", "data"];
   this.seeScales = function(){
+    term.addLine("*********************SCALE COLLECTION********************",true);
     if (this.scales.length == 0){
       term.addLine("You have no scales yet.  :(", true);
     }
@@ -45,16 +50,19 @@ function Player(element){
         term.addLine(examine, true);
       }//end for
     }//end if/else
+    term.addLine("*********************************************************",true);
+    term.addLine("(Press enter to return to the menu.)", true);
   };//end seeScales
   this.addScale = function(elem, name){
     this.scales.push({"element":elem, "name":name});
     term.addLine("You have collected a scale!", true);
+    term.addLine("(Press enter to continue.)", true);
   };//end addScale
   this.length = function(){
     return this.scales.length;
   };//end length
   this.randElement = function(){
-    var randNum = floor((Math.random()*this.altElements.length));
+    var randNum = Math.floor((Math.random()*this.altElements.length));
     var nextElem = this.altElements[randNum];
     var duplicate = false;
     for (scale in this.scales){
@@ -72,7 +80,7 @@ function Player(element){
   };//end randElement
 }
 
-function Dragon(name, element){
+function Dragon(name, element, level){
   this.name = name;
   this.element = element;
   this.asleep = false;
@@ -81,7 +89,7 @@ function Dragon(name, element){
   this.fullnessAt = function(){
     return this.fullness;
   }
-  this.level = 0;
+  this.level = level;
   this.points = 0;
   this.descs = [{"level":"baby", "desc":"A winged, scaly reptile the size of a cat."},
       {"level":"young", "desc":"A cow-sized lizard with bat-like wings</pre><pre> and sharp teeth."},
@@ -143,6 +151,7 @@ function Dragon(name, element){
       }//end switch
       term.addLine(greeting, true);
       term.addLine(status, true);
+      term.addLine("(Press enter to return to the menu.)", true);
     }//end if
   };//end observe
   //updates dragon fullness based on user choice
@@ -163,6 +172,7 @@ function Dragon(name, element){
           term.addLine("Your dragon munches the gem.", true);
           break;
       }//end switch
+      term.addLine("(Press enter to continue.)", true);
     }
     else {
       term.addLine("Your dragon is too full to eat.", true);
@@ -226,6 +236,7 @@ function Dragon(name, element){
     }
     var fightsOff = this.name+" fights them off and becomes stronger!";
     term.addLine(fightsOff,true);
+    term.addLine("(Press enter to continue.)", true);
     return "levelUP";
   }//end encounter
   this.levelUP = function(){
@@ -307,6 +318,7 @@ function Menu(menuName, opts){
 var Console = Backbone.Model.extend({
   defaults: {
     output: "~Welcome to Dragon Keeper~",
+    appendMe: '',
     userInput: '',
   },
   initialize: function(){
@@ -324,9 +336,7 @@ var Console = Backbone.Model.extend({
     else{
       var input = addMe;
     }
-    var currOutput = this.get("output");
-    updated = currOutput + input;
-    this.set({output: updated});
+    this.set({appendMe: input});
   },
   addInput: function(addMe) {
     this.set({userInput: addMe});
@@ -355,7 +365,6 @@ var ConsoleView = Backbone.View.extend({
   //'levelup' is a mode just to display level-up info and possibly end game
   enter: function(event){
     if (event.which == 13){
-      console.log("current mode = "+this.mode);
       switch(this.mode){
         case "menu":
           var input = jQuery(".console input").val();
@@ -379,7 +388,6 @@ var ConsoleView = Backbone.View.extend({
           jQuery(".console input").val("");
           this.model.addInput(input);
           gameState.doNext();
-          this.model.addLine("(Enter to continue...)",true);
           break;
         case "feed":
           var input = jQuery(".console input").val();
@@ -388,7 +396,7 @@ var ConsoleView = Backbone.View.extend({
             var fed = dragon1.feed(input);
           }
           else{
-            this.model.addLine("Please select 1 for a small gem or 2 for a large gem.");
+            this.model.addLine("Please select 1 for a small gem or 2 for a large gem.", true);
           }
           jQuery(".console input").val("");
           break;
@@ -407,9 +415,15 @@ var ConsoleView = Backbone.View.extend({
     this.model.on("change", this.render);
     
   },
-  render: function() {
+  render: function(append) {
     var currOutput = this.model.get("output");
-    jQuery("#console").html(currOutput);
+    var currAppend = this.model.get("appendMe");
+    if (this.model.hasChanged("output")) {
+      jQuery("#console").html(currOutput);
+    }
+    else if (this.model.hasChanged("appendMe")) {
+      jQuery("#console").append(currAppend);
+    }
     document.getElementById("console").scrollTop = 100000000;
   }
 })
@@ -431,6 +445,7 @@ function GameState() {
     term.addLine(element, true);
     var traveled_far_and_wide = "<pre>You have traveled far and wide, searching for "+element+" and wonder.</pre><pre>Taking shelter in a small cave, you have found a large smooth stone.</pre><pre>Strange... as you examine it you seem to feel movement from within...</pre>";
     term.addLine(traveled_far_and_wide, false);
+    term.addLine("(Press enter to continue.)", true);
     //yes the player object is global, not sure how else to do it!
     player1 = new Player(element);
     termView.mode = "bounce";
@@ -450,17 +465,20 @@ function GameState() {
   //prints dragon hatching message
   var hatching = function(){
     termView.mode = "ignore";
-    if(player1.length > 0){
+    console.log("player length is "+player1.length());
+    if(player1.length() > 0){
       player1.randElement();
     }
     var woke_up = "<pre>The stone burst in a cloud of "+player1.element+"-tinted smoke!</pre><pre>A baby dragon has hatched.</pre>"+asciiDragons[0];
     term.addLine(woke_up, false);
+    term.addLine("(Press enter to continue.)", true);
     termView.mode = "bounce";
   };
   //prints prompt to name baby dragon
   var nameDragonPrompt = function(){
     termView.mode = "ignore";
     term.addLine("Congratulations! What will you name the dragon?", true);
+    term.addLine("(Type a name and press enter.)", true);
     termView.mode = "bounce";
   };
   //creates Dragon object and calls 'show' on new Dragon
@@ -469,7 +487,7 @@ function GameState() {
     var dragName = term.getInput().charAt(0).toUpperCase() + term.getInput().slice(1);
     //get element
     var element = player1.element;
-    dragon1 = new Dragon(dragName, element);
+    dragon1 = new Dragon(dragName, element, 0);
     dragon1.show();
     termView.mode = "bounce";
   };
@@ -528,6 +546,7 @@ function GameState() {
     var timeHasCome = "THE TIME HAS COME.  "+dragon1.name+" the dragon must leave the nest.";
     term.addLine(timeHasCome, true);
     term.addLine("Any parting words for your scaly companion?", true);
+    term.addLine("(Type what you would say and press enter.)", true);
     termView.mode = "bounce";
   };
   //displays parting message
@@ -536,6 +555,7 @@ function GameState() {
     var parting = term.getInput();
     var sayBye = '<pre>"\''+parting+'\'; I will always remember that!"</pre><pre>growls your dragon, as it takes to the skies.</pre>';
     term.addLine(sayBye, false);
+    term.addLine("(Press enter to continue.)", true);
     termView.mode = "bounce";
 
   };
@@ -552,7 +572,9 @@ function GameState() {
   var restart = function(){
     termView.mode = "ignore";
     var hatching = dragon1.name+" has left you a dragon egg.  It is hatching!";
-    this.counter = 1;
+    term.addLine(hatching, true);
+    term.addLine("(Press enter to continue.)", true);
+    gameState.counter = 1;
     termView.mode = "bounce";
   };
   this.stages = [intro, sleep, hatching, nameDragonPrompt, createDragon, dragonMenu, 
@@ -574,6 +596,7 @@ mainMenu.addOption("Begin New Game", 1, function(){
   term.addLine("~~~~~A New Adventure Begins~~~~~~", true);
   term.addLine("", true);
   term.addLine("What is your favorite element?", true);
+  term.addLine("(Type the name of an element or thing and press enter.)", true);
 });
 mainMenu.addOption("ASCII Art Credits", 2, function(){ 
   for (var i in asciiCredits){
