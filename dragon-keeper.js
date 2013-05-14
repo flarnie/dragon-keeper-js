@@ -117,6 +117,7 @@ function Dragon(name, element, level){
     term.addLine(who_is, false);
     var ending = "It has "+this.element+"-tinted scales and smells of sulfur.";
     term.addLine(ending, true);
+    term.addLine("(Press enter to return to the menu.)", true);
   };
   //prints message based on dragon fullness and wakefullness
   this.observe = function(){
@@ -339,7 +340,8 @@ var Console = Backbone.Model.extend({
     this.set({appendMe: input});
   },
   addInput: function(addMe) {
-    this.set({userInput: addMe});
+    var sanitized = addMe.replace(/</gi, "").replace(/>/gi, "");
+    this.set({userInput: sanitized});
 
   },
   clearInput: function() {
@@ -413,7 +415,7 @@ var ConsoleView = Backbone.View.extend({
   initialize: function() {
     _.bindAll(this, 'render');
     this.model.on("change", this.render);
-    
+    document.getElementById("termInput").focus();
   },
   render: function(append) {
     var currOutput = this.model.get("output");
@@ -441,7 +443,7 @@ function GameState() {
   //gets player's choice of elment, creates Player object, prints intro text
   var intro = function(){
     termView.mode = "ignore";
-    var element = term.getInput().toLowerCase();
+    var element = term.getInput()
     term.addLine(element, true);
     var traveled_far_and_wide = "<pre>You have traveled far and wide, searching for "+element+" and wonder.</pre><pre>Taking shelter in a small cave, you have found a large smooth stone.</pre><pre>Strange... as you examine it you seem to feel movement from within...</pre>";
     term.addLine(traveled_far_and_wide, false);
@@ -454,18 +456,19 @@ function GameState() {
   var sleep = function(){
     termView.mode = "ignore";
     term.addLine("You fall asleep, using the smooth stone as your pillow~", true);
+    var zs = "Zzz";
     var sleeper = setInterval(function(){
-      term.addLine("Zzz....",true);
+      zs += "z";
+      term.addLine((zs+"..."),true);
     },1000);
     setTimeout(function(){
       clearInterval(sleeper);
-      termView.mode = "bounce";
+      gameState.doNext();
     }, 5000);
   };
   //prints dragon hatching message
   var hatching = function(){
     termView.mode = "ignore";
-    console.log("player length is "+player1.length());
     if(player1.length() > 0){
       player1.randElement();
     }
